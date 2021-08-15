@@ -1,11 +1,11 @@
-struct TestSwiftPackage {
+public struct TestSwiftPackage {
     var text = "Hello, World!"
 }
 
-struct AnotherStruct {
-    var text = "another struct"
+public struct AnotherStruct {
+    public var text = "another struct"
     
-    func returnSomeText()->String {
+    public func returnSomeText()->String {
         return "this is some text and \(self.text)"
     }
 }
