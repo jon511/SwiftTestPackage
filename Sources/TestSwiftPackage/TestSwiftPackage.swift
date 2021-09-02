@@ -21,3 +21,12 @@ public struct AnotherStruct {
         return "this is some text and \(self.text)"
     }
 }
+
+public struct YetAnotherStruct{
+    public var test = "struct number 3"
+
+    public init(){
+
+    }
+
+}
