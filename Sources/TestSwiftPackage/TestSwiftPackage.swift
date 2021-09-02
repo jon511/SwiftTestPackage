@@ -44,3 +44,17 @@ public class ThisIsAClass{
         return "\(self.name) and \(self.age) and \(self.id)"
     }
 }
+
+public class Class2{
+    private var name: String
+    private var id: Int
+    
+    public init(name: String, id: Int){
+        self.name = name
+        self.id = id
+    }
+    
+    public func ShowSomeStuff() -> String {
+        return "\(self.name) ID = \(self.id)"
+    }
+}
