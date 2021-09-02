@@ -30,3 +30,17 @@ public struct YetAnotherStruct{
     }
 
 }
+
+public class ThisIsAClass{
+    public var name = "this name"
+    public var age = 25
+    public var id = 1
+
+    public init(){
+
+    }
+
+    public func getData() -> String{
+        return "\(self.name) and \(self.age) and \(self.id)"
+    }
+}
